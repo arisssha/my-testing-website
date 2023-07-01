@@ -1,12 +1,17 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,500;1,900&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;0,600;1,100;1,700&family=Roboto:ital,wght@0,300;1,100;1,500;1,900&family=Ubuntu:ital,wght@0,300;1,400;1,500;1,700&display=swap');
+
 
 * {
     margin: 0;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+  
 }
 
 div {
@@ -14,33 +19,49 @@ div {
 }
 
 .nav-bar {
-    background-color: #102c54;
+    background-color: #6184ed;
     width: 100%;
-    position: fixed;
+    position: flex;
     top: 0;
+    text-align: right;
+  
 }
 
 .nav-bar li {
     list-style-type: none;
     display: inline-block;
     padding: 20px;
+    font-size: 2rem;
+    font-weight: bolder;
 }
 
 .nav-bar a {
     color: #ffff00;
-    text-decoration: no;
+    text-decoration: none;
 }
 
 main {
     display: flex;
     align-items: center;
-    background-image: url(../images/back.avif);
+    background-image: url(../images/patrick-t.jpg);
     background-size: cover;
-    color: #ffff00;
+    color: hsl(52, 89%, 51%);
     min-height: 20vh;
+ 
     
 }
 
 .main-txt {
-    font-size: 2rem;
+    font-size: 3rem;
+    text-emphasis-style: bold;
+}
+
+.btn {
+    background-color: #ffff00;
+    text-align: right;
+    width: 30%; 
+}
+ 
+#exp {
+    margin: auto; 
 }
