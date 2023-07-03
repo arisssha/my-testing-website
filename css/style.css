@@ -8,14 +8,11 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
-font-family: 'Ubuntu', sans-serif;
+
 }
 
-div {
-    display: block;
-}
+
 
 .nav-bar {
     background-color: #6184ed;
@@ -30,8 +27,8 @@ div {
     list-style-type: none;
     display: inline-block;
     padding: 20px;
-    font-size: 2rem;
-    font-weight: bolder;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .nav-bar a {
@@ -44,7 +41,7 @@ main {
     align-items: center;
     background-image: url(../images/yuriy-k.jpg);
     background-size: cover;
-    color: hsl(52, 89%, 51%);
+    color: #f8f813;
     min-height: 20vh;
     padding-left: 100px;   
 }
@@ -67,11 +64,97 @@ main {
     border-color: #ffdd00; 
     margin-left: 150px;
     padding: 2px 10px;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .btn {
     padding: 5px;
     margin: 10px;
 }
- 
+
+#exp {
+    margin-top: 35px;
+}
+
+#exp h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+     border: 3px solid #6184ed; 
+}
+
+.head-row {
+    background-color: #6184ed;
+    color:#f8f813;
+    text-align: center;
+}
+
+#contact-block {
+    background-image: url(../images/yuriy-k.jpg);
+    background-size: cover;
+    color: #3700ff;
+    margin: 0 20px;
+}
+
+#contact-block h1 {
+   text-align: center;
+   text-transform: uppercase;
+   margin-top: 100px;
+   padding-top: 30px;
+}
+
+.contact-form {
+    display: flex;
+    margin-left: 100px;
+}
+
+.form-item {
+    margin-left: 200px;
+}
+
+.form-item input {
+    block-size: 26px;
+}
+
+.form-item label {
+    font-weight: 600;
+}
+
+.form-item input,
+.form-item textarea {
+    width: 100%;
+    border: 3px solid #fefe71;
+    border-radius: 10px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+::placeholder {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.contact-form button {
+   background-color: #ffdd00;
+   color:#3700ff;
+   border: 0;
+   border-radius: 5px;
+   width: 35%;
+   padding: 10px;
+   margin-left: 30%;
+   font-size: 20px;
+   font-weight: 600;
+}
+
+
